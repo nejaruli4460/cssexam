@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,500,700');
+*{
+    margin: 0px;
+    padding:0px;
+    font-family:'Raleway', sans-serif;
+    color: rgba(0, 0, 0, 0.671)!important;
+}
+body{
+    overflow: hidden;
+}
+.nav{
+    background-color: #f9f1f3;
+    height: 4rem;
+    border-bottom: 1px solid black;
+}
+.container-fluid{
+    border-bottom: 2px soid black!;
+}
+.logo{
+    width: 7rem;
+    height: 7rem;
+    margin-left: 10rem;
+}
+nav li{
+   list-style: none;
+   margin-top: 10px;
+   padding-left: 2px!important;
+}
+nav li a:hover{
+    text-decoration: none;
+    background-color: cyan;
+}
+
+.navbar{
+    padding-left: 2px!important;
+}
+.row{
+    width: 100%;
+}
+.navmain{
+    padding-top: 1rem;
+    height: 4rem;
+}
+.body{
+    background-color: #ffe9ef;
+    height: 37rem;
+    border-top:2 px solid black ;
+}
+.body .container{
+    width:60%rem;
+    position: absolute;
+    left: 20%;
+}
+button{
+    width: 7rem;
+    height: 3rem;
+    background-color: transparent;
+    border: 2px solid black;
+}
+.body>.row{
+    width: 40%;
+}
+.body-textg{
+    border-block-end-width: 20rem;
+    width: 20px!important;
+    position: absolute;
+    margin-top: 20px;
+    top: 30%;
+    right: 15%;
+}
+.container{
+    position: relative;
+    width: 200px;
+    height: 500px;
+    display: flex;
+    right: 20%;
+}
+.bg{
+ width: 200px;
+}
+.bgimg{
+    height: 100%;
+    width: 53%;
+    margin-top: 20px;
+    position: absolute;
+    left: 10%;
+}
+h1{
+    width: 21rem!important;
+    text-justify: distribute;
+}
+button:hover{
+    background-color: burlywood;
+}
